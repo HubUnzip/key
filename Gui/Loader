@@ -1,5 +1,5 @@
 --[[
- ver 1.2
+ version 1.3
  credit by jacob
  Full version on x
 --]]
@@ -473,6 +473,7 @@ local function NKLN_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.Use
 			if script.Parent.Parent.insert.TextBox.Text == _G.key then
 				_G.status = false
 				script.Parent.Parent.insert.status.Text = "Loading script"
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/HubUnzip/rbx/main/loader",true))()
 				wait(1)
 				script.Parent.Parent.Parent:Destroy()
 			else

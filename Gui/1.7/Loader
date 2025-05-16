@@ -1,0 +1,776 @@
+local Converted = {
+	["_Unzip-Hub"] = Instance.new("ScreenGui");
+	["_scale"] = Instance.new("Frame");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_More"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_UICorner"] = Instance.new("UICorner");
+	["_Use"] = Instance.new("TextButton");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_re"] = Instance.new("TextButton");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_Scr"] = Instance.new("ScrollingFrame");
+	["_update-1"] = Instance.new("TextLabel");
+	["_update-1.1"] = Instance.new("TextLabel");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_update-1.11"] = Instance.new("TextLabel");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_insert"] = Instance.new("Frame");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_key"] = Instance.new("TextBox");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_status"] = Instance.new("TextLabel");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_setting"] = Instance.new("TextLabel");
+	["_UICorner6"] = Instance.new("UICorner");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner7"] = Instance.new("UICorner");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_toggle_rgb"] = Instance.new("TextButton");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_button"] = Instance.new("TextButton");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_Frame1"] = Instance.new("Frame");
+	["_remve"] = Instance.new("TextButton");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_Use1"] = Instance.new("TextButton");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_UICorner10"] = Instance.new("UICorner");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_insert-key-here"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_Unzip-Hub"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_Unzip-Hub"].Name = "Unzip-Hub"
+Converted["_Unzip-Hub"].Parent = game:GetService("CoreGui")
+
+Converted["_scale"].BackgroundColor3 = Color3.fromRGB(49.00000087916851, 49.00000087916851, 49.00000087916851)
+Converted["_scale"].BackgroundTransparency = 0.6000000238418579
+Converted["_scale"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_scale"].BorderSizePixel = 0
+Converted["_scale"].Position = UDim2.new(0.40391016, 0, 0.404531568, 0)
+Converted["_scale"].Size = UDim2.new(0.191222563, 0, 0.189486548, 0)
+Converted["_scale"].Name = "scale"
+Converted["_scale"].Parent = Converted["_Unzip-Hub"]
+
+Converted["_UIStroke"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke"].Parent = Converted["_scale"]
+
+Converted["_More"].Font = Enum.Font.SourceSans
+Converted["_More"].Text = "<"
+Converted["_More"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_More"].TextScaled = true
+Converted["_More"].TextSize = 14
+Converted["_More"].TextWrapped = true
+Converted["_More"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_More"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_More"].BorderSizePixel = 0
+Converted["_More"].Position = UDim2.new(0.879781902, 0, 0.756785333, 0)
+Converted["_More"].Size = UDim2.new(0.0937159508, 0, 0.173976377, 0)
+Converted["_More"].Name = "More"
+Converted["_More"].Parent = Converted["_scale"]
+
+Converted["_UICorner"].Parent = Converted["_More"]
+
+Converted["_Use"].Font = Enum.Font.Jura
+Converted["_Use"].Text = ""
+Converted["_Use"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Use"].TextSize = 14
+Converted["_Use"].BackgroundColor3 = Color3.fromRGB(212.00000256299973, 212.00000256299973, 212.00000256299973)
+Converted["_Use"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Use"].BorderSizePixel = 0
+Converted["_Use"].Position = UDim2.new(0.155738533, 0, 0.756785333, 0)
+Converted["_Use"].Size = UDim2.new(0.707650125, 0, 0.173976377, 0)
+Converted["_Use"].Name = "Use"
+Converted["_Use"].Parent = Converted["_scale"]
+
+Converted["_TextLabel"].Font = Enum.Font.Unknown
+Converted["_TextLabel"].Text = "Run"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.383931875, 0, 0.257878721, 0)
+Converted["_TextLabel"].Size = UDim2.new(0.228, 0, 0.444000006, 0)
+Converted["_TextLabel"].Parent = Converted["_Use"]
+
+Converted["_UICorner1"].Parent = Converted["_Use"]
+
+Converted["_re"].Font = Enum.Font.SourceSans
+Converted["_re"].Text = ""
+Converted["_re"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_re"].TextSize = 14
+Converted["_re"].BackgroundColor3 = Color3.fromRGB(212.00001776218414, 212.00001776218414, 212.00001776218414)
+Converted["_re"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_re"].BorderSizePixel = 0
+Converted["_re"].Position = UDim2.new(0.155738533, 0, 0.756784916, 0)
+Converted["_re"].Size = UDim2.new(0.707649708, 0, 0.17400001, 0)
+Converted["_re"].Visible = false
+Converted["_re"].Name = "re"
+Converted["_re"].Parent = Converted["_scale"]
+
+Converted["_TextLabel1"].Font = Enum.Font.Unknown
+Converted["_TextLabel1"].Text = "Remove Gui"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].TextScaled = true
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.384000003, 0, 0.257999986, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0.228, 0, 0.444000006, 0)
+Converted["_TextLabel1"].Parent = Converted["_re"]
+
+Converted["_UICorner2"].Parent = Converted["_re"]
+
+Converted["_Scr"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Scr"].Active = true
+Converted["_Scr"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Scr"].BackgroundTransparency = 1
+Converted["_Scr"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Scr"].BorderSizePixel = 0
+Converted["_Scr"].Position = UDim2.new(-1.66762717e-07, 0, 0, 0)
+Converted["_Scr"].Size = UDim2.new(0.997267783, 0, 0.683870971, 0)
+Converted["_Scr"].Name = "Scr"
+Converted["_Scr"].Parent = Converted["_scale"]
+
+Converted["_update-1"].Font = Enum.Font.Jura
+Converted["_update-1"].Text = "16.5.2025 new loading screen"
+Converted["_update-1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_update-1"].TextScaled = true
+Converted["_update-1"].TextSize = 14
+Converted["_update-1"].TextWrapped = true
+Converted["_update-1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_update-1"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_update-1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_update-1"].BackgroundTransparency = 0.699999988079071
+Converted["_update-1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_update-1"].BorderSizePixel = 0
+Converted["_update-1"].Position = UDim2.new(0.0406673066, 0, 0.0961398706, 0)
+Converted["_update-1"].Size = UDim2.new(0.903228343, 0, -0.0631043091, 0)
+Converted["_update-1"].Name = "update-1"
+Converted["_update-1"].Parent = Converted["_Scr"]
+
+Converted["_update-1.1"].Font = Enum.Font.Jura
+Converted["_update-1.1"].Text = "16.5.2025 add ui corner"
+Converted["_update-1.1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_update-1.1"].TextScaled = true
+Converted["_update-1.1"].TextSize = 14
+Converted["_update-1.1"].TextWrapped = true
+Converted["_update-1.1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_update-1.1"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_update-1.1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_update-1.1"].BackgroundTransparency = 0.699999988079071
+Converted["_update-1.1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_update-1.1"].BorderSizePixel = 0
+Converted["_update-1.1"].Position = UDim2.new(0.0406673066, 0, 0.179160357, 0)
+Converted["_update-1.1"].Size = UDim2.new(0.903228343, 0, -0.0631043091, 0)
+Converted["_update-1.1"].Name = "update-1.1"
+Converted["_update-1.1"].Parent = Converted["_Scr"]
+
+Converted["_UICorner3"].Parent = Converted["_Scr"]
+
+Converted["_update-1.11"].Font = Enum.Font.Jura
+Converted["_update-1.11"].Text = "17.5.2025 add setting & status & remake ui"
+Converted["_update-1.11"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_update-1.11"].TextScaled = true
+Converted["_update-1.11"].TextSize = 14
+Converted["_update-1.11"].TextWrapped = true
+Converted["_update-1.11"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_update-1.11"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_update-1.11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_update-1.11"].BackgroundTransparency = 0.699999988079071
+Converted["_update-1.11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_update-1.11"].BorderSizePixel = 0
+Converted["_update-1.11"].Position = UDim2.new(0.0382601805, 0, 0.259690195, 0)
+Converted["_update-1.11"].Size = UDim2.new(0.902999997, 0, -0.063000001, 0)
+Converted["_update-1.11"].Name = "update-1.1"
+Converted["_update-1.11"].Parent = Converted["_Scr"]
+
+Converted["_UICorner4"].Parent = Converted["_scale"]
+
+Converted["_insert"].BackgroundColor3 = Color3.fromRGB(49.00000087916851, 49.00000087916851, 49.00000087916851)
+Converted["_insert"].BackgroundTransparency = 0.6000000238418579
+Converted["_insert"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_insert"].BorderSizePixel = 0
+Converted["_insert"].Position = UDim2.new(-1.66762717e-07, 0, 1.06451631, 0)
+Converted["_insert"].Size = UDim2.new(0.997267783, 0, 0.283870965, 0)
+Converted["_insert"].Name = "insert"
+Converted["_insert"].Parent = Converted["_scale"]
+
+Converted["_UICorner5"].Parent = Converted["_insert"]
+
+Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke1"].Parent = Converted["_insert"]
+
+Converted["_key"].CursorPosition = -1
+Converted["_key"].Font = Enum.Font.SourceSans
+Converted["_key"].Text = ""
+Converted["_key"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_key"].TextSize = 14
+Converted["_key"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_key"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_key"].BorderSizePixel = 0
+Converted["_key"].Position = UDim2.new(0.0465753414, 0, 0.503958881, 0)
+Converted["_key"].Size = UDim2.new(0.904109597, 0, 0.318181813, 0)
+Converted["_key"].Name = "key"
+Converted["_key"].Parent = Converted["_insert"]
+
+Converted["_TextLabel2"].Font = Enum.Font.Jura
+Converted["_TextLabel2"].Text = "insert key"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].TextScaled = true
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].TextWrapped = true
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0.216438353, 0, 0.117647059, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0.547945201, 0, 0.295454532, 0)
+Converted["_TextLabel2"].Parent = Converted["_insert"]
+
+Converted["_status"].Font = Enum.Font.Unknown
+Converted["_status"].Text = "Status : insert key"
+Converted["_status"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_status"].TextScaled = true
+Converted["_status"].TextSize = 14
+Converted["_status"].TextWrapped = true
+Converted["_status"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_status"].BackgroundTransparency = 1
+Converted["_status"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_status"].BorderSizePixel = 0
+Converted["_status"].Position = UDim2.new(0.227397263, 0, 1.13636363, 0)
+Converted["_status"].Size = UDim2.new(0.547945201, 0, 0.272727281, 0)
+Converted["_status"].Name = "status"
+Converted["_status"].Parent = Converted["_insert"]
+
+Converted["_setting"].Font = Enum.Font.Jura
+Converted["_setting"].Text = "setting"
+Converted["_setting"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_setting"].TextScaled = true
+Converted["_setting"].TextSize = 14
+Converted["_setting"].TextWrapped = true
+Converted["_setting"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_setting"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_setting"].BorderSizePixel = 0
+Converted["_setting"].Position = UDim2.new(0.0214303434, 0, 0.756785333, 0)
+Converted["_setting"].Size = UDim2.new(0.11600215, 0, 0.173976377, 0)
+Converted["_setting"].Name = "setting"
+Converted["_setting"].Parent = Converted["_scale"]
+
+Converted["_UICorner6"].Parent = Converted["_setting"]
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(49.00000087916851, 49.00000087916851, 49.00000087916851)
+Converted["_Frame"].BackgroundTransparency = 0.6000000238418579
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(-2.77930951, 0, -4.34996414, 0)
+Converted["_Frame"].Size = UDim2.new(2.4524374, 0, 7.75043726, 0)
+Converted["_Frame"].Parent = Converted["_setting"]
+
+Converted["_UICorner7"].Parent = Converted["_Frame"]
+
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke2"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel3"].Font = Enum.Font.Unknown
+Converted["_TextLabel3"].Text = "RGB"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].TextScaled = true
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].TextWrapped = true
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 0.6000000238418579
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(0.0576278865, 0, 0.0382773429, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0.875951827, 0, 0.100000009, 0)
+Converted["_TextLabel3"].Parent = Converted["_Frame"]
+
+Converted["_toggle_rgb"].Font = Enum.Font.Jura
+Converted["_toggle_rgb"].Text = "Toggle"
+Converted["_toggle_rgb"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle_rgb"].TextScaled = true
+Converted["_toggle_rgb"].TextSize = 14
+Converted["_toggle_rgb"].TextWrapped = true
+Converted["_toggle_rgb"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_toggle_rgb"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle_rgb"].BorderSizePixel = 0
+Converted["_toggle_rgb"].Position = UDim2.new(-0.00815819576, 0, 1.41160834, 0)
+Converted["_toggle_rgb"].Size = UDim2.new(1.00815785, 0, 0.863051891, 0)
+Converted["_toggle_rgb"].Name = "toggle_rgb"
+Converted["_toggle_rgb"].Parent = Converted["_TextLabel3"]
+
+Converted["_button"].Font = Enum.Font.SourceSans
+Converted["_button"].Text = ""
+Converted["_button"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_button"].TextSize = 14
+Converted["_button"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_button"].BackgroundTransparency = 1
+Converted["_button"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_button"].BorderSizePixel = 0
+Converted["_button"].Position = UDim2.new(-3.73771582e-05, 0, 1.13169153e-06, 0)
+Converted["_button"].Size = UDim2.new(1.00003743, 0, 1.00000143, 0)
+Converted["_button"].Name = "button"
+Converted["_button"].Parent = Converted["_setting"]
+
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(140.00000685453415, 140.00000685453415, 140.00000685453415)
+Converted["_Frame1"].BackgroundTransparency = 0.699999988079071
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].Position = UDim2.new(0.155738533, 0, 0.33548367, 0)
+Converted["_Frame1"].Size = UDim2.new(0.707649767, 0, 0.596918344, 0)
+Converted["_Frame1"].Visible = false
+Converted["_Frame1"].Parent = Converted["_scale"]
+
+Converted["_remve"].Font = Enum.Font.SourceSans
+Converted["_remve"].Text = ""
+Converted["_remve"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_remve"].TextSize = 14
+Converted["_remve"].BackgroundColor3 = Color3.fromRGB(212.00000256299973, 212.00000256299973, 212.00000256299973)
+Converted["_remve"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_remve"].BorderSizePixel = 0
+Converted["_remve"].Position = UDim2.new(2.3565714e-07, 0, 0.35667026, 0)
+Converted["_remve"].Size = UDim2.new(1.00000024, 0, 0.283739537, 0)
+Converted["_remve"].Name = "remve"
+Converted["_remve"].Parent = Converted["_Frame1"]
+
+Converted["_TextLabel4"].Font = Enum.Font.Unknown
+Converted["_TextLabel4"].Text = "Remove Gui"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].TextScaled = true
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].TextWrapped = true
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(0.383931875, 0, 0.257843941, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0.228, 0, 0.444000006, 0)
+Converted["_TextLabel4"].Parent = Converted["_remve"]
+
+Converted["_UICorner8"].Parent = Converted["_remve"]
+
+Converted["_Use1"].Font = Enum.Font.SourceSans
+Converted["_Use1"].Text = ""
+Converted["_Use1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Use1"].TextSize = 14
+Converted["_Use1"].BackgroundColor3 = Color3.fromRGB(212.00000256299973, 212.00000256299973, 212.00000256299973)
+Converted["_Use1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Use1"].BorderSizePixel = 0
+Converted["_Use1"].Position = UDim2.new(-2.3565714e-07, 0, 0.356670588, 0)
+Converted["_Use1"].Size = UDim2.new(1.00000072, 0, 0.283739895, 0)
+Converted["_Use1"].Name = "Use"
+Converted["_Use1"].Parent = Converted["_Frame1"]
+
+Converted["_TextLabel5"].Font = Enum.Font.Unknown
+Converted["_TextLabel5"].Text = "Run"
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].TextScaled = true
+Converted["_TextLabel5"].TextSize = 14
+Converted["_TextLabel5"].TextWrapped = true
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Position = UDim2.new(0.383931875, 0, 0.257843941, 0)
+Converted["_TextLabel5"].Size = UDim2.new(0.228, 0, 0.444000006, 0)
+Converted["_TextLabel5"].Parent = Converted["_Use1"]
+
+Converted["_UICorner9"].Parent = Converted["_Use1"]
+
+Converted["_UICorner10"].Parent = Converted["_Frame1"]
+
+
+local fake_module_scripts = {}
+-- Fake Local Scripts:
+
+local function FNTNDT_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.More.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_More"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local function s()
+		if script.Parent.Parent.Frame.Visible == true then
+			script.Parent.Parent.Frame.Visible = false
+		else
+			script.Parent.Parent.Frame.Visible = true
+		end
+	end
+	local function check()
+		if script.Parent.Parent.re.Visible == true then
+			script.Parent.Parent.Frame.Use.Visible = true
+		else
+			script.Parent.Parent.Frame.Use.Visible = false
+		end
+	end
+	local function checktwo()
+		if script.Parent.Parent.Use.Visible == true then
+			script.Parent.Parent.Frame.remve.Visible = true
+		else
+			script.Parent.Parent.Frame.remve.Visible = false
+		end
+	end
+	script.Parent.MouseButton1Up:Connect(s)
+	
+	
+	
+	while wait(0.1) do
+		check()
+		checktwo()
+	end
+end
+local function FZJOYF_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.Use.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Use"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+			if script.Parent.Parent.insert.key.Text == _G.key then
+				_G.status = false
+				script.Parent.Parent.insert.status.Text = "Loading script"
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/HubUnzip/rbx/main/loader",true))()
+				wait(1)
+				script.Parent.Parent.Parent:Destroy()
+			else
+			
+		end
+	end)
+	
+end
+local function MESYX_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.re.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_re"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.More:Destroy()
+		wait(0)
+		script.Parent.Parent.Use:Destroy()
+		wait(0)
+		script.Parent.Parent.Frame.Use:Destroy()
+		wait(0)
+		script.Parent.Parent.Parent.LocalScript:Destroy()
+		wait(0)
+		script.Parent.Parent.Parent.LocalScript2:Destroy()
+		wait(0)
+		script.Parent.Parent.Parent.scale:Destroy()
+	    
+	end)
+end
+local function FWRAEP_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.insert.status.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_status"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	_G.status = true
+	while _G.status do
+		if script.Parent.Parent.TextBox.Text == _G.key then
+			script.Parent.Text = "Status : Vaild key (press run)"
+		else
+			script.Parent.Text = "Status : Invaild key"
+		end
+		wait(0.2)
+	end
+end
+local function IFQYQE_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.setting.Frame.TextLabel.toggle_rgb.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_toggle_rgb"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	local RunService = game:GetService("RunService")
+	local button = script.Parent
+	local originalPosition = UDim2.new(-0.008, 0, 1.412, 0)
+	local toggled = false
+	local rainbowConnection = nil
+	
+	local function getRainbowColor(t)
+		local r = math.sin(t) * 127 + 128
+		local g = math.sin(t + 2) * 127 + 128
+		local b = math.sin(t + 4) * 127 + 128
+		return Color3.fromRGB(r, g, b)
+	end
+	
+	local function isTextElement(obj)
+		return obj:IsA("TextLabel") or obj:IsA("TextButton") or obj:IsA("TextBox")
+	end
+	
+	local function applyStrokeToAll(gui)
+		for _, obj in ipairs(gui:GetDescendants()) do
+			if obj:IsA("GuiObject") and not isTextElement(obj) then
+				local stroke = obj:FindFirstChildOfClass("UIStroke")
+				if not stroke then
+					stroke = Instance.new("UIStroke", obj)
+				end
+				stroke.Thickness = 2
+			end
+		end
+	end
+	
+	local function setStrokeColor(gui, color)
+		for _, obj in ipairs(gui:GetDescendants()) do
+			if obj:IsA("GuiObject") and not isTextElement(obj) then
+				local stroke = obj:FindFirstChildOfClass("UIStroke")
+				if stroke then
+					stroke.Color = color
+				end
+			end
+		end
+	end
+	
+	local function startRainbow(gui)
+		local t = 0
+		if rainbowConnection then rainbowConnection:Disconnect() end
+		rainbowConnection = RunService.RenderStepped:Connect(function(dt)
+			t += dt * 3
+			local color = getRainbowColor(t)
+			setStrokeColor(gui, color)
+		end)
+	end
+	
+	local function stopRainbow(gui)
+		if rainbowConnection then
+			rainbowConnection:Disconnect()
+			rainbowConnection = nil
+		end
+		setStrokeColor(gui, Color3.fromRGB(255, 255, 255))
+	end
+	
+	local function shake()
+		for i = 1, 4 do
+			local offset = (i % 2 == 0) and 6 or -6
+			local tween = TweenService:Create(button, TweenInfo.new(0.05), {
+				Position = originalPosition + UDim2.new(0, offset, 0, 0)
+			})
+			tween:Play()
+			tween.Completed:Wait()
+		end
+		local resetTween = TweenService:Create(button, TweenInfo.new(0.05), {
+			Position = originalPosition
+		})
+		resetTween:Play()
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		toggled = not toggled
+		shake()
+		local gui = button:FindFirstAncestorOfClass("ScreenGui")
+		if gui then
+			applyStrokeToAll(gui)
+			if toggled then
+				startRainbow(gui)
+			else
+				stopRainbow(gui)
+			end
+		end
+	end)
+	
+end
+local function HSBL_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.setting.button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_button"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local function s()
+		if script.Parent.Parent.Frame.Visible == false then
+			script.Parent.Parent.Frame.Visible = true
+		else
+			script.Parent.Parent.Frame.Visible = false
+		end
+	end
+	script.Parent.MouseButton1Up:Connect(s)
+end
+local function QULQIZ_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.Frame.remve.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_remve"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.Parent.re.Visible = true
+		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.Use.Visible = false
+	end)
+end
+local function GZZLPWF_fake_script() -- Fake Script: StarterGui.Unzip-Hub.scale.Frame.Use.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Use1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Up:Connect(function()
+	
+		script.Parent.Visible = false
+		script.Parent.Parent.Parent.re.Visible = false
+		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.Use.Visible = true
+	
+	end)
+end
+local function RDRRPG_fake_script() -- Fake Script: StarterGui.Unzip-Hub.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Unzip-Hub"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	_G.AFKTEST = true
+	while _G.AFKTEST do
+		script.Parent.scale.Frame.remve.Visible = false
+		script.Parent.scale.Frame.Use.Visible = false
+		script.Parent.scale.Frame.remve.Visible = true
+		if _G.one == true then
+			warn("Loop detected fixing")
+			else
+			end
+		print("test_file / \ " .. game.Players.LocalPlayer.Name .. " test_char //\/" .. tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame))
+		wait(0.1)
+		_G.one = true
+	end
+	
+end
+local function IUMXFJ_fake_script() -- Fake Script: StarterGui.Unzip-Hub.LocalScript2
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript2"
+    script.Parent = Converted["_Unzip-Hub"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	wait(3)
+	_G.AFKTEST = false
+end
+local function NYJKA_fake_script() -- Fake Script: StarterGui.Unzip-Hub.insert-key-here
+    local script = Instance.new("LocalScript")
+    script.Name = "insert-key-here"
+    script.Parent = Converted["_Unzip-Hub"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	_G.key = "wow"
+end
+local keyTextBox = Converted["_key"]
+
+local saveFileName = "UnzipHubKey.txt"
+
+if pcall(function() return readfile(saveFileName) end) then
+    local savedKey = readfile(saveFileName)
+    Converted["_key"].Text = savedKey
+end
+
+keyTextBox.FocusLost:Connect(function()
+        local keyToSave = Converted["_key"].Text
+        writefile(saveFileName, Converted["_key"].Text)
+    
+end)
+coroutine.wrap(FNTNDT_fake_script)()
+coroutine.wrap(FZJOYF_fake_script)()
+coroutine.wrap(MESYX_fake_script)()
+coroutine.wrap(IFQYQE_fake_script)()
+coroutine.wrap(HSBL_fake_script)()
+coroutine.wrap(QULQIZ_fake_script)()
+coroutine.wrap(GZZLPWF_fake_script)()
+coroutine.wrap(RDRRPG_fake_script)()
+coroutine.wrap(IUMXFJ_fake_script)()
+coroutine.wrap(NYJKA_fake_script)()

@@ -1,3 +1,4 @@
+-- ทำโดยคนหล่อเจคอปไม่พูดก็รู้
 local Converted = {
 	["_Unzip-Hub"] = Instance.new("ScreenGui");
 	["_scale"] = Instance.new("Frame");
